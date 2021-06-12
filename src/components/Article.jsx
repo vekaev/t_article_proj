@@ -9,7 +9,7 @@ export const Article = memo(({ article, deleteArticle, changeArticle }) => {
     setInDelete({
       timer: setTimeout(() => {
         deleteArticle(article.id);
-      }, 5000),
+      }, 2000),
       status: true,
     });
   };
